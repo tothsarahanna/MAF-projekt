@@ -42,6 +42,3 @@ main("pelda.txt", 1, 1, 1)
     "triangulations_pelda.txt_0" (első gráf háromszögelő halmazai, pirossal jelölve a regulárisak)
     
     "triangulations_pelda.txt_1" (második gráf háromszögelő halmazai, pirossal jelölve a regulárisak)
-    
-# Megjegyzés:
-Feltöltök néhány további példa inputot és outputként kapott ábrákat is.
