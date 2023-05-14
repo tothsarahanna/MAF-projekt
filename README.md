@@ -22,7 +22,7 @@ A programot a main függvény segítségével kell futtatni, amelynek argumentum
        
 A program létrehoz almappákat a program file-t is tartalmazó mappába, és ezekbe rendezi az outputként kapott ábrákat.
        
-# Példa:
+# Példa
 main("pelda.txt", 1, 1, 1)
 
     pelda.txt:
