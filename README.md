@@ -14,17 +14,11 @@ A programot a main függvény segítségével kell futtatni, amelynek argumentum
 
   filename: a txt file neve, amely az input gráfokat tartalmazza
   
-  draw: 1 --> kirajzolja a háromszögelő halmazokat
-  
-        0 --> nem rajzolja ki a háromszögelő halmazokat
+  draw: 1 --> kirajzolja a háromszögelő halmazokat, 0 --> nem rajzolja ki a háromszögelő halmazokat
         
-  distr: 1 --> kirajzolja a feszítőfákat az előfordulási gyakoriságuk szerint
-  
-         0 --> nem rajzolja ki a feszítőfákat az előfordulási gyakoriságuk szerint
+  distr: 1 --> kirajzolja a feszítőfákat az előfordulási gyakoriságuk szerint, 0 --> nem rajzolja ki a feszítőfákat az előfordulási gyakoriságuk szerint
          
-  reg: 1 --> pirosra színezi a reguláris halmazokat, amennyiben draw=1
-  
-       0 --> nem színezi pirosra a reguláris halmazokat
+  reg: 1 --> pirosra színezi a reguláris halmazokat, amennyiben draw=1, 0 --> nem színezi pirosra a reguláris halmazokat
        
 A program létrehoz almappákat a program file-t is tartalmazó mappába, és ezekbe rendezi az outputként kapott ábrákat.
        
@@ -41,9 +35,9 @@ main("pelda.txt", 1, 1, 1)
         
  output file-ok:
  
-    "distribution_pelda.txt_0" (első gráf feszítőfái gyakoriság szerint)
+    "distribution_pelda.txt_0" (első gráf feszítőfái és gyakoriságuk)
     
-    "distribution_pelda.txt_1" (második gráf feszítőfái gyakoriság szerint)
+    "distribution_pelda.txt_1" (második gráf feszítőfái és gyakoriságuk)
     
     "triangulations_pelda.txt_0" (első gráf háromszögelő halmazai, pirossal jelölve a regulárisak)
     
