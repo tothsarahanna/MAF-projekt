@@ -14,7 +14,7 @@ A célom az volt, hogy a program segítségével kicsit jobban megérthessük a 
 Kicsit részletesebben:
 1) Megkeressük és eltároljuk az összes feszítőfát, valamint megszámoljuk, hogy hányféle fokszámsorozat fordul elő (ugyanis tudjuk, hogy ennyi feszítőfát fog tartalmazni minden háromszögelés), legyen ez a szám k.
 2) Felépítjük a metszési gráfot, amelynek a csúcsai a feszítőfák, és két csúcs akkor van összekötve, ha a hozzájuk tartozó két feszítőfa szimplexének van közös belső pontja.
-3) Megkeressük és eltároljuk az összes feszítőfa háromszögelést, ehhez vizsgáljuk a feszítőfák halmazának minden k elemű részhalmazát, és a metszési gráf segítségével leellenőrizzük, hogy a halmaz elemei (mint szimplexek) páronként metszőek-e.
+3) Megkeressük és eltároljuk az összes feszítőfa háromszögelést, ehhez vizsgáljuk a feszítőfák halmazának minden k elemű részhalmazát, és leellenőrizzük, hogy a metszési gráfban független csúcshalmazt alkotnak-e.
 4) Megszámoljuk, hogy egy-egy feszítőfa hány háromszögelésben szerepel.
 5) A háromszögelések közül kiválogatjuk a reguláris háromszögeléseket (használva ezeknek egy érdekes karakterizációját, miszerint ha minden háromszögeléshez definiálunk egy élszám-dimenziós vektort, melynek a koordinátái azt fejezik ki, hogy az adott él az adott háromszögelés hány feszítőfájában szerepel, akkor pontosan ezen vektorok konvex burkának a csúcsai lesznek a reguláris háromszögelések).
 6) Ábrákkal szemléltetjük az eredményeket.
