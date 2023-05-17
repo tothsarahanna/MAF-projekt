@@ -11,7 +11,7 @@ Köszönöm Tóthmérész Lillának a témát, és a segítséget a feldolgozás
 A célom az volt, hogy a program segítségével kicsit jobban megérthessük a háromszögelő feszítőfa halmazokat. A program egy (vagy több) inputként kapott páros gráfra megkeresi és (kék színnel) kirajzolja, hogy a feszítőfáinak mely részhalmazai alkotnak háromszögelést. A háromszögelések közül kiválogatja, és más színnel (pirossal) színezi azokat, amelyek bizonyos értelemben szép, úgynevezett reguláris háromszögelések. Ezen kívül azt is megvizsgálja a gráf minden feszítőfájára, hogy az adott fa hány háromszögelésben szerepel, és ezeket is kirajzolja, feltüntetve a gyakoriságukat is.
 
 Kicsit részletesebben:
-1) Megkeressük és eltároljuk az összes feszítőfát (minden n-1 méretű élrészhalmazra bfs-sel megvizsgáljuk, hogy összefüggő-e), valamint megszámoljuk, hogy hányféle fokszámsorozat fordul elő (ugyanis tudjuk, hogy ennyi feszítőfát fog tartalmazni minden háromszögelés), legyen ez a szám k.
+1) Megkeressük és eltároljuk az összes feszítőfát (minden n-1 méretű élrészhalmazra bfs-sel megvizsgáljuk, hogy összefüggő-e), valamint megszámoljuk, hogy hányféle fokszámsorozatot realizálnak (ugyanis tudjuk, hogy ennyi feszítőfát fog tartalmazni minden háromszögelés), legyen ez a szám k.
 2) Felépítjük a metszési gráfot, amelynek a csúcsai a feszítőfák, és két csúcs akkor van összekötve, ha a hozzájuk tartozó két feszítőfa szimplexének van közös belső pontja.
 3) Megkeressük és eltároljuk az összes feszítőfa háromszögelést, ehhez vizsgáljuk a feszítőfák halmazának minden k elemű részhalmazát, és leellenőrizzük, hogy a metszési gráfban független csúcshalmazt alkotnak-e.
 4) Megszámoljuk, hogy egy-egy feszítőfa hány háromszögelésben szerepel.
